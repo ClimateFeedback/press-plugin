@@ -118,7 +118,7 @@ function pressLoop( $atts ) {
               </div>
               <div class="media-body">
                 <h3 class="noborder">'.get_post_meta( get_the_ID(), 'outlet', true ).'</h3>
-                <a class="strong" href="'.get_post_meta( get_the_ID(), 'link', true ).'">'.get_the_title().'</a>
+                <a class="strong" target="_blank" href="'.get_post_meta( get_the_ID(), 'link', true ).'">'.get_the_title().'</a>
                 <p class="small">
                   <span>'.get_post_meta( get_the_ID(), 'date', true ).'</span>
                 </p>
