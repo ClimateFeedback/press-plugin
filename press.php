@@ -75,14 +75,14 @@ function display_press_meta_box( $press ) {
     </tr>
 
   </table>
-  <?php } 
+  <?php }
 
 add_action( 'save_post', 'add_press_fields', 10, 2 );
 
 
 function add_press_fields( $press_id, $press ) {
   if ( $press->post_type == 'press' ) {
-    
+
     if ( isset( $_POST['press_link'] ) && $_POST['press_link'] != '' ) {
       update_post_meta( $press_id, 'link', $_POST['press_link'] );
     }
