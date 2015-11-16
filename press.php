@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Press
-Description: Declares a plugin that will create a custom post type displaying press presss.
+Description: Declares a plugin that will create a custom post type displaying press press.
 Version: 1.1
 Author: Jake Hartnell
 License: BSD
