@@ -138,8 +138,6 @@ function pressLoop( $atts ) {
   add_shortcode('press-loop', 'pressLoop');
 
 
-
-
   function press_pagination( $atts ) {
     extract( shortcode_atts( array(
         'type' => 'press',
