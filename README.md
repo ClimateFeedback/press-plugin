@@ -1,2 +1,2 @@
 # press-plugin
-A press plugin for the Climate Feedback Wordpress
+A press plugin for the Science Feedback Wordpress
